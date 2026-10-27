@@ -25,7 +25,7 @@ body:
     id: out-of-scope
     attributes:
       label: Out of scope
-      default: "alembic/, .github/, pyproject.toml, any new dependency"
+      placeholder: "alembic/, .github/, pyproject.toml, any new dependency"
     validations:
       required: true
   - type: textarea
